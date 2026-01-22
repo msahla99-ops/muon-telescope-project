@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # --- 1. LOAD DATA ---
-filename = 'angle_dependence.csv' # Filename from your screenshot
+filename = 'angle_dependence.csv' 
 
 try:
     df = pd.read_csv(filename)
